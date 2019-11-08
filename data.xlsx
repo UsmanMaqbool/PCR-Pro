@@ -1,0 +1,6 @@
+Dataset,Source,,target,,Ig = ig * scale,Code
+Results6outdoor,robot2TestImg8.jpg,0.109232,robot1TestImg9,0.221547,-N/A-,make && ./main robot2TestImg8.jpg robot1TestImg9.jpg robot1pcd9.pcd robot2pcd8.pcd && pcl_pcd2vtk robot1pcd9.pcd Results/source_original.vtk && pcl_pcd2vtk robot2pcd8.pcd Results/target_original.vtk && pcl_pcd2vtk Results/cloud_scale.pcd Results/cloud_scale.vtk && pcl_pcd2vtk Results/cloud_s_trans.pcd Results/cloud_ss.vtk && pcl_pcd2vtk Results/cloud_source.pcd Results/cloud_source.vtk
+,cloud_source.vtk,source_original,,target_original,,
+,,,,,,
+Results7outdoor,robot1TestImg39,0.00710156,robot2TestImg42,0.257432,-N/A-,make && ./main robot1TestImg39.jpg robot2TestImg42.jpg robot2pcd42.pcd robot1pcd39.pcd && pcl_pcd2vtk robot2pcd42.pcd Results/source_original.vtk && pcl_pcd2vtk robot1pcd39.pcd Results/target_original.vtk && pcl_pcd2vtk Results/cloud_source.pcd Results/cloud_source.vtk
+,cloud_source.vtk,source_original,,target_original,,
